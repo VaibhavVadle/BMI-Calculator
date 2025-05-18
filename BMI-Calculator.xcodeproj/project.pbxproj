@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		80E01B822DDA6295001D4E1A /* Exceptions for "BMI-Calculator" folder in "BMI-Calculator" target */ = {
+		80E01BCC2DDA6643001D4E1A /* Exceptions for "BMI-Calculator" folder in "BMI-Calculator" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		80E01B5C2DDA6294001D4E1A /* BMI-Calculator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				80E01B822DDA6295001D4E1A /* Exceptions for "BMI-Calculator" folder in "BMI-Calculator" target */,
-			);
-			path = "BMI-Calculator";
-			sourceTree = "<group>";
-		};
 		80E01B732DDA6295001D4E1A /* BMI-CalculatorTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "BMI-CalculatorTests";
@@ -56,6 +48,14 @@
 		80E01B7D2DDA6295001D4E1A /* BMI-CalculatorUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "BMI-CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		80E01BC52DDA6643001D4E1A /* BMI-Calculator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80E01BCC2DDA6643001D4E1A /* Exceptions for "BMI-Calculator" folder in "BMI-Calculator" target */,
+			);
+			path = "BMI-Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		80E01B512DDA6294001D4E1A = {
 			isa = PBXGroup;
 			children = (
-				80E01B5C2DDA6294001D4E1A /* BMI-Calculator */,
+				80E01BC52DDA6643001D4E1A /* BMI-Calculator */,
 				80E01B732DDA6295001D4E1A /* BMI-CalculatorTests */,
 				80E01B7D2DDA6295001D4E1A /* BMI-CalculatorUITests */,
 				80E01B5B2DDA6294001D4E1A /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				80E01B5C2DDA6294001D4E1A /* BMI-Calculator */,
+				80E01BC52DDA6643001D4E1A /* BMI-Calculator */,
 			);
 			name = "BMI-Calculator";
 			packageProductDependencies = (
